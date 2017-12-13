@@ -38,6 +38,7 @@ y_d = - y_b;
 
 %% setup fill vectors
 
+phi = (1+sqrt(5))/2;
 scale = 0.9;
 X = [xx,fliplr(xx)];
 
