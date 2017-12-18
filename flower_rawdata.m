@@ -478,6 +478,7 @@ pp2 = plot(scale*xx,(scale/phi)*[y_a; y_b; y_c; y_d],'color',rspec);
 set(ax1,'DataAspectRatio',[1 1 1],'XTick',zeros(1,0),'YTick',zeros(1,0));
 ax1.XColor = [1 1 1];
 ax1.YColor = [1 1 1];
+ax1.TitleFontSizeMultiplier = sqrt(5);
 H = title(ax1,'Happy Holidays!');
 H.Color = auspec;
 
